@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil - MERN Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" onclick="scrollToSection('home')">{ <span>Anil</span> }</div>
+            <ul>
+                <li><a href="#home">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="resume-btn" onclick="openResume()">Resume ⬇</button>
+                <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Frontend / MERN Stack &lt;/&gt;</h2>
+                <h1>Hey! I'm <span class="highlight">Anil Kumar</span>, a Frontend & MERN Stack Developer.</h1>
+                <p>I design and build modern, responsive, and user-friendly web applications
+                    using HTML, CSS, JavaScript, React, and the MERN stack.
+                    I focus on clean UI, smooth UX, and performance-optimized code.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">Check portfolio</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="Anil dp.png" alt="profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About My <span>Journey</span></h2>
+        <div class="about-content">
+            <div class="timeline">
+                <h3 style="color: var(--primary-orange); margin-bottom: 2rem;">⭕ Learning & Project Experience</h3>
+                <div class="timeline-item">
+                    <h3>Frontend & MERN Stack Developer</h3>
+                    <p class="role">💻 Self-Learning & Project Based</p>
+                    <span class="date">2024 - Present</span>
+                    <p>Actively building frontend and full-stack projects using HTML, CSS,
+                        JavaScript, React, Node.js, Express, and MongoDB.</p>
+                    <p style="margin-top: 1rem;">Created responsive UIs, API-based applications, authentication systems,
+                        and real-world clone projects while improving problem-solving skills.</p>
+                </div>
+
+                <h3 style="color: var(--primary-orange); margin: 2rem 0;">⭕ Education Background</h3>
+                <div class="timeline-item">
+                    <h3>Frontend Specialization & Modern Web Development</h3>
+                    <p class="role">📚 Dedicated full-time effort to mastering modern technologies with professional coding standards.</p>
+                    <span class="date">2024 - Present</span>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Master of Computer Applications (MCA), HYD</h3>
+                    <p class="role">🎓 Currently Pursuing</p>
+                    <span class="date">2024 - 2026</span>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Bachelor of Science (B.Sc)</h3>
+                    <p class="role">🎓 Government Degree College</p>
+                    <span class="date">Completed in 2024</span>
+                </div>
+            </div>
+
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <h4>My Development Philosophy</h4>
+                    <ul>
+                        <li><strong>Frontend Development (HTML, CSS, JavaScript):</strong>Building responsive and user-friendly web interfaces with clean layouts, modern UI design, and cross-browser compatibility.</li>
+                        <li><strong>React & Modern Frontend:</strong> Creating reusable components, managing state effectively, and developing scalable frontend applications using React.</li>
+                        <li><strong>MERN Stack (MongoDB, Express, React, Node.js):</strong>  Developing full-stack applications including authentication, CRUD operations, APIs, cart systems, and database integration.</li>
+                        <li><strong>REST APIs & Backend Integration:</strong> Connecting frontend applications with backend services using REST APIs, handling real-time data and secure communication.</li>
+                        <li><strong>UI/UX & Performance:</strong>Focusing on clean UI, smooth user experience, mobile-first design, and performance-optimized code.</li>
+                       
+                    </ul>
+                </div>
+
+                <div class="philosophy-card">
+                    <h4>🧠 Analytical Problem Solving</h4>
+                    <p>I enjoy analyzing problems step by step and converting complex requirements into simple, efficient, and scalable solutions.</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <h4>📚 Continuous Learning</h4>
+                    <p>Currently improving my MERN stack skills, learning advanced React patterns, backend optimization, and preparing for real-world full-stack development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="section-title">Explore My <span>Skills</span></h2>
+        <p style="text-align: center; color: #666; margin-bottom: 3rem;">Technologies that power my frontend development toolkit</p>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>FrontEnd Architecture & UI</h3>
+                <p>Technologies for building type-safe, responsive, and high-performance user interfaces.</p>
+                <div class="skill-icons">
+                    <div class="skill-icon" title="HTML5"><img src="https://skillicons.dev/icons?i=html" /></div>
+                    <div class="skill-icon" title="CSS3"><img src="https://skillicons.dev/icons?i=css" /></div>
+                    <div class="skill-icon" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" /></div>
+                    <div class="skill-icon" title="React"><img src="https://skillicons.dev/icons?i=react" /></div>
+                     <div class="skill-icon" title="UI/UX Basics"> <img src="https://skillicons.dev/icons?i=figma" /></div>
+                    <div class="skill-icon" title="Vite"> <img src="https://skillicons.dev/icons?i=vite" /></div>
+                    <div class="skill-icon" title="Grid">  <img src="https://skillicons.dev/icons?i=html" /></div>
+                    <div class="skill-icon" title="REST API Integration">  <img src="https://skillicons.dev/icons?i=postman" /></div>
+                    <div class="skill-icon" title="Flexbox"> <img src="https://skillicons.dev/icons?i=css" /></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>MERN Stack & Security</h3>
+                <p>Server-side and security technologies for full-stack capability.</p>
+                <div class="skill-icons">
+                    <div class="skill-icon" title="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb" /></div>
+                    <div class="skill-icon" title="Express"><img src="https://skillicons.dev/icons?i=express" /></div>
+                    <div class="skill-icon" title="Node.js"> <img src="https://skillicons.dev/icons?i=nodejs" /></div>
+                    <div class="skill-icon" title="Mongoose"> <img src="https://skillicons.dev/icons?i=mongodb" /></div>
+                   
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Professional Workflow</h3>
+                <p>Complementary tools and platforms for code quality and collaboration.</p>
+                <div class="skill-icons">
+                   
+                    <div class="skill-icon" title="GitHub">  <img src="https://skillicons.dev/icons?i=github" /></div>
+                    <div class="skill-icon" title="Netlify"> <img src="https://skillicons.dev/icons?i=netlify" /></div>
+                    <div class="skill-icon" title="Vercel"><img src="https://skillicons.dev/icons?i=vercel" /></div>
+                    <div class="skill-icon" title="VS Code">  <img src="https://skillicons.dev/icons?i=vscode" /></div>
+                    <div class="skill-icon" title="Figma"> <img src="https://skillicons.dev/icons?i=figma" /></div>
+                    <div class="skill-icon" title="Postman"> <img src="https://skillicons.dev/icons?i=postman" /></div>
+                    <div class="skill-icon" title="npm">  <img src="https://skillicons.dev/icons?i=npm" /></div>
+                     <div class="skill-icon" title="GitHub Pages">  <img src="https://skillicons.dev/icons?i=github" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p style="text-align: center; color: #666; margin-bottom: 3rem;">Here are some of my recent projects</p>
+
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project-card" data-project="portfolio">
+                <h3>Portfolio Website</h3>
+                <p>Modern personal portfolio website.</p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-project="ecommerce">
+                <h3>Plant E-Commerce</h3>
+                <p>MERN stack online store.</p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-project="netflix">
+                <h3>Netflix Clone</h3>
+                <p>Real-time weather application.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <p class="tech-stack" id="modalTech"></p>
+            <p class="description" id="modalDescription"></p>
+            <div class="modal-buttons">
+                <a href="#" id="modalLiveLink" class="btn-primary" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                <a href="#" id="modalGithubLink" class="btn-secondary" target="_blank" rel="noopener noreferrer">View Code →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQs SECTION -->
+    <section id="faqs">
+        <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    What technologies do you specialize in?
+                </div>
+                <div class="faq-answer">
+                    I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) with TypeScript. I'm also proficient in Next.js, Tailwind CSS, Redux, and modern development tools like Docker and CI/CD pipelines.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Are you available for freelance work?
+                </div>
+                <div class="faq-answer">
+                    Yes! I'm currently available for freelance projects and consulting. I'm particularly interested in full-stack web applications and frontend development projects. Feel free to reach out through the contact form.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What's your development process?
+                </div>
+                <div class="faq-answer">
+                    I follow Agile/Scrum methodologies for project management. My process includes requirement analysis, UI/UX design, development with regular testing, code reviews, and deployment with CI/CD pipelines. I ensure clean, maintainable code with proper documentation.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How can I see your previous work?
+                </div>
+                <div class="faq-answer">
+                    You can check out my projects section above, or visit my GitHub profile for complete code repositories. I'm also happy to share case studies and detailed project walkthroughs during our discussion.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What's your typical project timeline?
+                </div>
+                <div class="faq-answer">
+                    Project timelines vary based on scope and complexity. A simple landing page might take 1-2 weeks, while a full-stack application could take 4-8 weeks. I provide detailed estimates after understanding your requirements.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p style="text-align: center; color: #666; margin-bottom: 3rem;">Have a project in mind or want to discuss opportunities? I'd love to hear from you.</p>
+        
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nameInput" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="emailInput" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subjectInput" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="messageInput" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message →</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <div class="info-details">
+                        <h4>EMAIL</h4>
+                        <p>mr.anil123156@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📱</div>
+                    <div class="info-details">
+                        <h4>PHONE</h4>
+                        <p>+91-934716****</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <div class="info-details">
+                        <h4>LOCATION</h4>
+                        <p>Uppal, Hyderabad</p>
+                    </div>
+                </div>
+
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 15px; text-align: center;">
+                    <p style="color: #666; margin-bottom: 1rem;">Open to freelance, consulting, or just a tech chat over coffee.</p>
+                    <a href="#contact" class="btn-primary" style="display: inline-block;">Start a conversation →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Anil Kumar</h3>
+            <p>FRONTEND DEVELOPER • MERN STACK</p>
+            <p style="margin: 1rem 0;">I blend aesthetics with engineering to craft web interfaces that not only work — they wow.</p>
+            
+            <div class="social-links">
+                <a href="https://www.youtube.com/@project_lab_07" title="YouTube" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-youtube"></i> </a>
+                 <a href="https://www.instagram.com/project_lab.7?igsh=d2I0NW01bnhhODA1" title="Instagram" target="_blank" rel="noopener noreferrer"> <img src="https://skillicons.dev/icons?i=instagram" /></a>
+                <a href="https://www.linkedin.com/in/anil-kumar-gurrapu-72009922b" title="LinkedIn" target="_blank" rel="noopener noreferrer"> <img src="https://skillicons.dev/icons?i=linkedin" /></a>
+                <a href="https://github.com/anil00024?tab=repositories" title="GitHub" target="_blank" rel="noopener noreferrer"> <img src="https://skillicons.dev/icons?i=github" /></a>
+            </div>
+
+            <p style="margin-top: 2rem; opacity: 0.7;">Let's stay connected — I post dev notes, design experiments, and bad jokes.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
